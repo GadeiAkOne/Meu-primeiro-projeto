@@ -1,0 +1,34 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    display: flex ;
+    justify-content: right; 
+    width: 100%;
+}
+#img{
+    transition: ease-in all .5s;
+}
+
+#img:hover{
+    opacity: .5;
+}
+
+
+@media (max-width: 767px){
+    #img-tio{
+        margin-bottom: 1.5em;
+    }
+    #work{
+        margin-bottom: 1.5em;
+    }
+}
+
+.btn{
+    border-radius: 50px;
+}
+
+#footer-copy{
+    background-color: rgba(0, 0, 0, 0.2);
+}
